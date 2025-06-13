@@ -1,6 +1,6 @@
 body,
 html {
-  background-image: url("navbar.png");
+  background-image: url("/navbar.png");
   background-size: cover;
   background-position: center;
   margin: 0;
