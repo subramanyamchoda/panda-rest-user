@@ -9,7 +9,7 @@ import Restaurants from '../pages/Restaurants';
 import Table from '../pages/Table';
 import Dashboard from '../pages/Dashboard';
 import Bookings from '../pages/Bookings';
-
+import '../App.css'; 
 // Components
 import NotFound from '../components/NotFound';
 
