@@ -3,10 +3,8 @@
 Welcome to **Panda Restaurants – User Portal** 🐼🍽️  
 A full-featured online table reservation system built with the **MERN stack**, designed to offer seamless booking experiences for restaurant-goers. This portal enables users to explore restaurants, check real-time table availability, and make secure reservations—all in one modern, responsive interface.
 
-🔗 **Live App**: [https://lnkd.in/ewXXMRF9](https://lnkd.in/ewXXMRF9)  
-🔗 **GitHub Repo**: [https://lnkd.in/ekCtrDpZ](https://lnkd.in/ekCtrDpZ)  
-🔗 **Backend API**: [https://lnkd.in/evMK2UJX](https://lnkd.in/evMK2UJX)
-
+🔗 **Live App**: [[https://lnkd.in/ewXXMRF9](https://lnkd.in/ewXXMRF9)  ](https://pandarestaurantsuser.vercel.app/)
+🔗 **Backend API**: [[https://lnkd.in/evMK2UJX](https://lnkd.in/evMK2UJX)](https://panda-rest-server.onrender.com/)
 ---
 
 ## 🧑‍🍳 Key Features – User Portal
@@ -38,7 +36,7 @@ A full-featured online table reservation system built with the **MERN stack**, d
 ## 📦 Getting Started
 
 ### 1. Clone the Repository
-git clone https://github.com/yourusername/pandarestuser.git
+git clone [https://github.com/yourusername/pandarestuser.git](https://github.com/subramanyamchoda/panda-rest-user)
 cd pandarestuser
 
 ---
@@ -53,7 +51,7 @@ npm install
 
 4. Add Environment Variables
 Create a .env file in the root with the following keys:
-VITE_API_BASE_URL=https://your-backend-api-url.com
+VITE_API_BASE_URL=https://panda-rest-server.onrender.com/
 VITE_GOOGLE_CLIENT_ID=your-google-client-id
 
 ---
@@ -68,27 +66,7 @@ App will run at: http://localhost:5173
 To run tests (if included):
 npm run test
 
----
 
-📁 Project Structure
-pgsql
-Copy
-Edit
-pandarestuser/
-├── public/
-│   └── index.html
-├── src/
-│   ├── assets/
-│   ├── components/
-│   ├── pages/
-│   ├── services/
-│   ├── utils/
-│   ├── App.jsx
-│   └── main.jsx
-├── .env
-├── .gitignore
-├── package.json
-└── README.md
 
 ----
 
