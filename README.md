@@ -3,8 +3,8 @@
 Welcome to **Panda Restaurants – User Portal** 🐼🍽️  
 A full-featured online table reservation system built with the **MERN stack**, designed to offer seamless booking experiences for restaurant-goers. This portal enables users to explore restaurants, check real-time table availability, and make secure reservations—all in one modern, responsive interface.
 
-🔗 **Live App**: [[https://lnkd.in/ewXXMRF9](https://lnkd.in/ewXXMRF9)  ](https://pandarestaurantsuser.vercel.app/)
-🔗 **Backend API**: [[https://lnkd.in/evMK2UJX](https://lnkd.in/evMK2UJX)](https://panda-rest-server.onrender.com/)
+🔗 **Live App**: (https://pandarestaurantsuser.vercel.app/)
+🔗 **Backend API**:(https://panda-rest-server.onrender.com/)
 ---
 
 ## 🧑‍🍳 Key Features – User Portal
