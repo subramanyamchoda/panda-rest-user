@@ -34,6 +34,8 @@ A full-featured online table reservation system built with the **MERN stack**, d
 
 ---
 
+## 🚀 Project Images
+
 <p align="center">
   <img src="https://subramanyamchoda.vercel.app/panarestuser1.png" width="400"/>
   <img src="https://subramanyamchoda.vercel.app/panarestuser2.png" width="400"/>
