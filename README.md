@@ -1,40 +1,41 @@
-# 🚀 Panda Restaurants – User Portal
+# 🐼 Panda Restaurants – User Portal
 
-Welcome to **Panda Restaurants – User Portal** 🐼🍽️
-A full-featured online table reservation system built with the **MERN stack**, designed to offer seamless booking experiences for restaurant-goers. This portal enables users to explore restaurants, check real-time table availability, and make secure reservations — all in one modern, responsive interface.
+A seamless table reservation platform built with the **MERN stack**. This user-facing portal empowers diners to explore restaurants, check **real-time table availability**, and make reservations effortlessly with secure **Google OAuth** login and **automated email notifications**.
 
-🔗 **Live App**: [https://pandarestaurantsuser.vercel.app/](https://pandarestaurantsuser.vercel.app/)
-🔗 **Backend API**: [https://panda-rest-server.onrender.com/](https://panda-rest-server.onrender.com/)
-
----
-
-## 🧑‍🍳 Key Features – User Portal
-
-* 🔐 **Secure Google OAuth Login**
-* 📅 **Explore Restaurants** with real-time table availability
-* ✅ **Book Tables** by date, time, and guest count
-* 📨 **Instant Email Notifications** (Login & Booking)
-* 📊 **Booking History** and personalized dashboard
-* 🎨 **Framer Motion** animations for smooth UX
-* 💻 Fully responsive UI for all devices
+🌐 **Live App**: [https://pandarestaurantsuser.vercel.app](https://pandarestaurantsuser.vercel.app)  
+🛠️ **Backend API**: [https://panda-rest-server.onrender.com](https://panda-rest-server.onrender.com)
 
 ---
 
-## 🛠️ Tech Stack
+## ✨ Features
 
-| Layer      | Technology                          |
-| ---------- | ----------------------------------- |
-| Frontend   | React.js + Vite                     |
-| Styling    | Tailwind CSS + Framer Motion        |
-| Auth       | Google OAuth 2.0 + JWT              |
-| Backend    | Node.js + Express (via REST API)    |
-| Database   | MongoDB + Mongoose ORM              |
-| Email      | NodeMailer                          |
-| Deployment | Vercel (Frontend), Render (Backend) |
+- 🔐 **Google OAuth 2.0 Login** – Fast & secure authentication
+- 📅 **Real-Time Table Availability** – Live slot checking
+- ✅ **Smart Booking System** – Select date, time & guest count
+- 📨 **Automated Emails** – Login & booking confirmations
+- 📊 **Dashboard** – View past and upcoming reservations
+- 🎨 **Framer Motion** – Smooth transitions and effects
+- 📱 **Responsive Design** – Optimized for all screen sizes
 
 ---
 
-## 🚀 Project Images
+## 🧰 Tech Stack
+
+| Layer        | Technology                             |
+|--------------|-----------------------------------------|
+| Frontend     | React.js, Vite                         |
+| Styling      | Tailwind CSS, Framer Motion            |
+| Auth         | Google OAuth 2.0, JWT (HTTP-only cookies) |
+| Backend      | Node.js, Express.js                    |
+| Database     | MongoDB, Mongoose                      |
+| Email        | NodeMailer                             |
+| Deployment   | Vercel (Frontend), Render (Backend)    |
+
+---
+
+## 🖼️ Screenshots
+
+> Modern, responsive UI – scroll through for a preview 👇
 
 <p align="center">
   <img src="https://subramanyamchoda.vercel.app/panarestuser1.png" width="400"/>
@@ -46,115 +47,127 @@ A full-featured online table reservation system built with the **MERN stack**, d
   <img src="https://subramanyamchoda.vercel.app/panarestuser7.png" width="400"/>
   <img src="https://subramanyamchoda.vercel.app/panarestuser8.png" width="400"/>
   <img src="https://subramanyamchoda.vercel.app/panarestuser9.png" width="400"/>
-
 </p>
 
+---
 
-## 📦 Getting Started
+## 🚀 Getting Started (Local Development)
 
 ### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/subramanyamchoda/panda-rest-user.git
 cd panda-rest-user
-```
-
-### 2. Install Dependencies
-
-```bash
+2. Install Dependencies
+bash
+Copy
+Edit
 npm install
-```
+3. Configure Environment Variables
+Create a .env file in the project root with the following values:
 
-### 3. Add Environment Variables
-
-Create a `.env` file in the root with the following keys:
-
-```env
+env
+Copy
+Edit
 VITE_API_BASE_URL=https://panda-rest-server.onrender.com/
 VITE_GOOGLE_CLIENT_ID=your-google-client-id
-```
+📝 Replace your-google-client-id with your actual client ID from the Google Developer Console.
 
-> Replace `your-google-client-id` with your actual Google OAuth 2.0 client ID.
-
-### 4. Start the App
-
-```bash
+4. Start the Development Server
+bash
+Copy
+Edit
 npm run dev
-```
+📍 The app will be available at: http://localhost:5173
 
-App will run at: [http://localhost:5173](http://localhost:5173)
+🔐 Authentication & Security
+OAuth 2.0 via Google for login
+
+JWT tokens are stored securely in HTTP-only cookies
+
+Protected routes include:
+
+Booking
+
+Dashboard
+
+✉️ Email Notifications
+Emails are automatically sent using NodeMailer for:
+
+🔑 Login Confirmation
+
+📅 Booking Confirmation
+
+🌟 Highlight Features
+✅ Google OAuth 2.0 Integration
+
+🔐 Secure JWT-based authentication
+
+📅 Real-time table booking and availability
+
+📧 Email automation on key user actions
+
+📱 Mobile-friendly, fully responsive UI
+
+🎥 Smooth UX using Framer Motion animations
+
+🤝 Contributing
+Contributions are welcome and appreciated!
+
+Steps to Contribute:
+Fork the repository
+
+Create a new branch:
+
+bash
+Copy
+Edit
+git checkout -b feature/YourFeatureName
+Commit your changes:
+
+bash
+Copy
+Edit
+git commit -m "Added YourFeatureName"
+Push to your fork:
+
+bash
+Copy
+Edit
+git push origin feature/YourFeatureName
+Open a Pull Request
+
+🙏 Acknowledgments
+This project was built to:
+
+Improve MERN stack development skills
+
+Implement real-world authentication flows
+
+Handle real-time user interaction
+
+Design a user-friendly, responsive UI/UX
+
+📦 Related Projects
+🛠️ Admin Portal (for restaurant managers): panda-rest-admin
+
+🌐 Backend API: panda-rest-server
+
+✅ Try It Now
+👉 Live App – Panda Restaurants User Portal
+
+Made with ❤️ by @subramanyamchoda
+
+markdown
+Copy
+Edit
 
 ---
 
-## 🔒 Security & Auth
+### ✅ Next Suggestions:
 
-* Google OAuth 2.0 for user login
-* JWT stored in HTTP-only cookies
-* Protected routes for booking and dashboard
+- Add **GitHub badges** (e.g., Vercel deploy status, last commit, license)
+- Include a short **GIF demo** of booking flow
+- Add **unit/integration testing instructions** (if applicable)
 
----
-
-## 📧 Notifications
-
-* Login confirmation emails
-* Booking confirmation emails
-* Sent using NodeMailer via backend
-
----
-
-## 🌟 Highlights
-
-* 🔐 Role-based access (User)
-* ✅ Google OAuth 2.0 + JWT
-* 📧 Email notifications on key events
-* 📱 Fully responsive design
-* 💨 Framer Motion transitions
-* 📅 Real-time booking flow
-
----
-
-## 🤝 Contributing
-
-Contributions and feedback are welcome!
-
-### Steps:
-
-1. Fork the repository
-2. Create your feature branch:
-
-```bash
-git checkout -b feature/YourFeature
-```
-
-3. Commit your changes:
-
-```bash
-git commit -m 'Add YourFeature'
-```
-
-4. Push to the branch:
-
-```bash
-git push origin feature/YourFeature
-```
-
-5. Open a Pull Request
-
----
-
-## 🙌 Acknowledgments
-
-Built as a full-stack project to enhance practical experience with:
-
-* Full authentication flows
-* Real-time data handling
-* RESTful API communication
-* User-friendly UI/UX design
-
----
-
-## ✅ Try it now
-
-[**Panda Restaurants – User Portal**](https://pandarestaurantsuser.vercel.app/)
-
-Thank you for checking it out! 🐼✨
+Would you like me to generate a matching `README.md` for the **Admin Portal** or create **API documen
