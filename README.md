@@ -152,7 +152,7 @@ This project was built to:
 
 ## 📦 Related Projects
 
-- 🛠️ [Admin Portal](https://github.com/subramanyamchoda/panda-rest-admin) – For restaurant managers  
+- 🛠️ [Admin Portal](https://github.com/subramanyamchoda/panda-rest-adder) – For restaurant managers  
 - 🌐 [Backend API](https://github.com/subramanyamchoda/panda-rest-server) – Node.js Express server  
 
 ---
